@@ -1,0 +1,74 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Gilroy;
+}html,body{
+   height: 100%;
+   width: 100%;
+}
+.page{
+    position: relative;
+    height: 100vmin;
+    width: 100vmax;
+    background-color: white;
+}
+.nav{
+    position: absolute;
+    height: 5vmax;
+    width: 100vmax;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vmax 14vmax;
+    color: #fff;
+}
+.logo h3{
+    font-size: 1.4vmax;
+    color: #fff;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vmax;
+    list-style-type: none;
+}
+.img{
+    height: 75vmin;
+    width: 100vmax;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+h1{
+    position: relative;
+    top: -20vmax;
+    text-align: center;
+    color: #ffffff;
+}
+p{
+    position: relative;
+    top: -19vmax;
+    text-align: center;
+    color: #ffffff;
+}
+button{
+    position: relative;
+    top: -17vmax;
+    left: 47vmax;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 1em;
+    background-color: rgb(255, 255, 13);
+    color: #2a2a2a;
+    cursor: pointer;
+}
+.page-two{
+    height: 100vmin;
+    width: 100vmax;
+    background: linear-gradient(#EB65B8,#cb7fd0);
+}

@@ -1,0 +1,246 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:Gilroy;
+
+}html,body{
+   height: 100%;
+   width: 100%;
+}
+.main{
+    overflow: hidden;
+    position: relative;
+}
+
+.page-1{
+    height: 170vh;
+    width: 100vw;
+    background-color: rgb(100%, 100%, 100%)
+}
+
+.nav{
+    height: 15vh;
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 4vmax;
+    padding: 5.9vmax 7vmax 7vmax 11vmax;
+}
+.nav .logo svg {
+    height: 6vmax;
+   
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 2vmax;
+}
+
+.menu ul>a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu>ul>a>li{
+    font-family: cursive;
+    font-weight: 400;
+}
+.title h3{
+    font-size: 4vmax;
+    font-family: cursive;
+    text-align: center;
+    word-spacing: -0.7vmax;
+}
+.main-img-bg{
+    height: 34vmax;
+    width: 100vmax;
+    /* background-color: red;
+     */
+     background-image: url(https://astropad.com/wp-content/uploads/2023/03/homepage-banner-bg-2048x594.webp);
+     background-size: cover;
+     margin-top: 11vmax;
+}
+.main-img-bg img{
+    height: 120%;
+    margin-top: -11vmax;
+    width: 100%;
+    object-fit: cover;
+}
+.img-button-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0vmax 3vmax;
+}
+.left-text-p-1{
+    width: 45vw;
+    height: 35vh;
+}
+
+.left-text-p-1 h1{
+    font-size: 5vmax;
+    font-weight: 400;
+    font-family: cursive;
+    margin-top: -2vmax;
+}
+.left-text-p-1 h4{
+    font-size: 1.8vmax;
+    font-weight: 400;
+}
+.button-page-1{
+    display: flex;
+    align-items: center;
+    gap: 4vmax;
+}
+.button-page-1>button{
+    background-color: #EB0C50;
+    padding: 1vmax 2.5vmax;
+    border-radius: 1vmax;
+    border: none;
+    font-size: 1.5vmax;
+    font-family: cursive;
+    color: white;
+    margin-top: 2vmax;
+
+}
+.button-page-1 p{
+    color: #EB0C50;
+    font-size: 2vmax;
+    font-family: cursive;
+    font-weight: 700;
+    margin-top: 2vmax;
+}
+.right-symbol-box{
+    width: 45%;
+    height: 35vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0vmax 2vmax;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.magic-gestures {
+    height: 60%;
+    width: 27%;
+    margin-left: 1.5vmax;
+}
+.magic-gestures img{
+    object-fit: cover;
+    height: 40%;
+}
+.magic-gestures p{
+    font-weight: 700;
+    font-family: cursive;
+    margin-top: 1.2vmax;
+    font-size: 19px;
+    color: rgb(181, 183, 185);
+}
+
+.stroke-lab{
+    height: 70%;
+    width: 27%;
+}
+.stroke-lab img{
+    object-fit: cover;
+    height: 40%;
+}
+.stroke-lab p{
+    font-weight: 700;
+    font-family: cursive;
+    margin-top: 1.2vmax;
+    text-align: start;
+    font-size: 19px;
+    color: rgb(181, 183, 185);
+}
+.unli-per-shor{
+    height: 70%;
+    width: 27%;
+}
+.unli-per-shor img {
+    object-fit: cover;
+    height: 40%;
+    margin-left: 3vmax;
+}
+.unli-per-shor p{
+    font-weight: 700;
+    font-family: cursive;
+    margin-top: 1.2vmax;
+    text-align: center;
+    font-size: 19px;
+    color: rgb(181, 183, 185);
+}
+/* page -2*/
+
+.page-2{
+    height: 190vh;
+    width: 100vw;
+    background-color: rgb(96%, 96%, 96%);
+}
+.box-page-2{
+    overflow: hidden;
+    height: 75vh;
+    width: 90vw;
+    margin-top: 6vmax;
+    margin-left: 5vw;
+    border-radius: 1.5vmax;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-inside-box {
+    height: 100%;
+    width: 65%;
+}
+.img-inside-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.content-inside-box a img{
+    height: 6vmax;
+    margin-top: 5vmax;
+    margin-left: 2.2vmax;
+}
+.content-inside-box h1{
+    color: rgb(68, 68, 68);
+    font-size: 2.5vmax;
+    font-weight: 600;
+    font-family: cursive;
+    margin-top: 1vmax;
+    margin-left: 2.2vmax;
+}
+.content-inside-box h3{
+    font-family: cursive;
+    font-weight: 400;
+    margin-top: 1vmax;
+    margin-left: 2.2vmax;
+}
+.content-inside-box a{
+    text-decoration: none;
+}
+.content-inside-box p{
+    color: #EB0C50;
+    font-family: cursive;
+    margin-top: 0.5vmax;
+    margin-left: 2.2vmax;
+    cursor: pointer;
+
+}
+.content-inside-box button{
+    background-color: #EB0C50;
+    padding: 1vmax 3vmax;
+    border-radius: 1.7vmax;
+    border: none;
+    font-family: cursive;
+    color: #fff;
+    font-size: 1.2vmax;
+    margin-top: 4vmax;
+    margin-left: 3vmax;
+    cursor: pointer;
+
+}
