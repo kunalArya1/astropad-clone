@@ -2,8 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family:Gilroy;
-
+   font-family:cursive;
 }html,body{
    height: 100%;
    width: 100%;
@@ -13,6 +12,8 @@
     position: relative;
 }
 
+
+        /* page -1*/
 .page-1{
     height: 170vh;
     width: 100vw;
@@ -244,3 +245,166 @@
     cursor: pointer;
 
 }
+
+
+            /* page -3*/
+
+.page-3{
+    height: 120vh;
+    width: 100vw;
+    background-color: rgb(96%, 96%, 96%);
+}
+.title-con-page-3{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0rem 5rem;
+}
+.title-con-page-3 h2{
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 2.3vmax;
+    color: rgb(52, 52, 52);
+}
+.content-div-page-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 5.2rem ;
+    
+}
+.content-div-page-3 a{
+    color: black;
+    text-decoration: none;
+}
+.content-div-page-3-box{
+    height: 75vh;
+    width: 25vw;
+    background-color: rgb(255, 255, 255);;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-div-page-3{
+    position: relative;
+    top: 3%;
+   height: 60%;
+   width: 90%;
+   margin: 5%; 
+   background-color: #EB0C50; 
+}
+.img-div-page-3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.content-div-page-3-box h2{
+    margin-top: 1.6rem;
+    margin-left: 1.4rem;
+    font-size: 1.3vmax;
+    font-family: cursive;
+    font-weight: 600;
+    color: rgb(62, 57, 57);
+}
+.content-div-page-3-box p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: cursive;
+    margin-left: 17rem;
+    margin-top: 1.4rem;
+}
+
+.arrow{
+    position: relative;
+    bottom: -9%;
+    margin-left: 17rem;
+    font-size: 2.6rem;
+    font-family: cursive;
+    color: red;
+}
+#arrow-2{
+    position: relative;
+    bottom: -4.7%;
+}
+#arrow-3{
+    position: relative;
+    bottom: -15%;
+}
+.button-page-3{
+    background-color: #EB0C50;
+    border: none;
+    padding: 1.4rem 2.9rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    color: #fff;font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+            /* page -4*/
+          
+.page-4{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(100%, 100%, 100%);
+    padding: 7vmax 11vmax;
+} 
+
+.cont-5 svg{
+    height: 7vmax;
+    margin-top: 10vmax;
+}    
+.footer{
+    margin-top: -10vmax;
+    display: flex;
+    justify-content: space-between;
+}     
+.cont-1 h2{
+    margin-top: 9vmax;
+    margin-bottom: 3vmax;
+} 
+.cont-1 h3{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 1.4vmax;
+    color: rgb(42, 40, 40);
+}
+
+.cont-2 h2{
+    margin-top: 9vmax;
+    margin-bottom: 3vmax;
+
+}
+.cont-2 a{
+    color: rgb(178, 178, 178);
+    text-decoration: none;
+}
+.cont-2 a>p {
+    margin-top: 1vmax;
+}
+
+.cont-3 h2{
+    margin-top: 9vmax;
+    margin-bottom: 3vmax;
+}
+.cont-3 a{
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+}
+.cont-3 a>p {
+    margin-top: 1vmax;
+}
+
+.cont-4 h2{
+    margin-top: 9vmax;
+    margin-bottom: 3vmax;
+}
+.cont-4 a{
+    color: rgb(164, 164, 164);
+    text-decoration: none;
+}
+.cont-4 a>p {
+    margin-top: 1vmax;
+}
+

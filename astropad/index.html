@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astropad</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="main">
+        <!-- page-1 -->
         <div class="page-1">
             <div class="nav">
                 <div class="logo">
-                   <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 162 81"><path d="M60.347 33.48v1.5c-.08-.28-1.4-1.73-3.75-1.73a6.68 6.68 0 0 0-6.68 6.96c0 4.81 3.59 7.05 6.68 7.05 2.34 0 3.67-1.38 3.75-1.92V47h3.71V33.48h-3.71Zm-3.24 10.48c-1.87 0-3.59-1.28-3.59-3.75a3.47 3.47 0 0 1 3.6-3.66c1.81 0 3.4 1.25 3.4 3.66 0 2.5-1.59 3.75-3.4 3.75h-.01Zm16.12-6.42 3.12-.81a5.05 5.05 0 0 0-5.02-3.48c-2.52 0-4.78 1.48-4.78 3.92 0 1.85 1.22 3.23 3.87 4.19l1.56.54c.8.32 1.12.7 1.12 1.15 0 .67-.73 1.3-1.7 1.3-1.34 0-2.07-.86-2.41-1.77l-2.94.91c.55 2.37 2.89 3.82 5.36 3.82 2.73 0 5.4-1.53 5.4-4.24 0-2.62-1.92-3.35-3.9-4.05l-1.63-.6c-.73-.26-1.1-.62-1.1-1.2 0-.6.63-1.01 1.3-1.01.73 0 1.33.36 1.75 1.33Zm11.42 6.34c-.94 0-1.12-.68-1.12-1.3v-6.03h2.88v-3.07h-2.88v-3.17h-3.72v3.17h-1.9v3.07h1.9v6.06c0 3.82 1.77 4.55 3.87 4.55 1.3 0 2.19-.19 2.76-.45V43.6a4.9 4.9 0 0 1-1.8.29l.01-.01Zm12.41-10.6a4.72 4.72 0 0 0-4.68 3.58v-3.38h-3.71V47h3.71v-5.77a4.73 4.73 0 0 1 5.67-4.32v-3.56c-.34-.08-.65-.08-.99-.08v.01Zm9.28-.03c-3.07 0-7.1 2.31-7.1 7.04s4.03 6.97 7.1 6.97c3.07 0 7.07-2.24 7.07-6.97 0-4.73-4-7.04-7.07-7.04Zm0 3.3c1.67 0 3.49 1.27 3.49 3.74a3.499 3.499 0 0 1-3.49 3.67 3.5 3.5 0 0 1-3.48-3.67c0-2.47 1.8-3.74 3.48-3.74Zm16.12-3.3c-2.34 0-3.67 1.45-3.74 1.74v-1.51h-3.71v18.46h3.72v-6.6c.07.54 1.4 1.92 3.74 1.92 3.1 0 6.68-2.24 6.68-7.05a6.672 6.672 0 0 0-1.855-4.906 6.68 6.68 0 0 0-4.825-2.054h-.01Zm-.52 10.7c-1.82 0-3.4-1.24-3.4-3.74 0-2.41 1.58-3.66 3.4-3.66a3.475 3.475 0 0 1 3.373 2.245c.17.451.244.933.217 1.415 0 2.47-1.72 3.75-3.6 3.75l.01-.01Zm19.32-10.47v1.5c-.08-.28-1.4-1.73-3.75-1.73a6.681 6.681 0 0 0-6.68 6.96c0 4.81 3.59 7.05 6.68 7.05 2.34 0 3.67-1.38 3.75-1.92V47h3.71V33.48h-3.71Zm-3.23 10.48c-1.87 0-3.59-1.28-3.59-3.75a3.46 3.46 0 0 1 .991-2.626 3.47 3.47 0 0 1 2.609-1.034c1.81 0 3.4 1.25 3.4 3.66 0 2.5-1.59 3.75-3.4 3.75h-.01Zm19.63-15.34v6.37c-.08-.29-1.4-1.74-3.75-1.74a6.681 6.681 0 0 0-6.68 6.96c0 4.81 3.59 7.05 6.68 7.05 2.34 0 3.67-1.38 3.75-1.92V47h3.72V28.62h-3.72Zm-3.23 15.34c-1.87 0-3.58-1.28-3.58-3.75a3.46 3.46 0 0 1 3.58-3.66c1.82 0 3.41 1.25 3.41 3.66 0 2.5-1.59 3.75-3.4 3.75h-.01ZM15.837 14.12c-1.1.28-.42.1-2.37.8a21.3 21.3 0 0 0-8.96 32.91c4.73-5.42 4.78-16.76 5.4-25.62 0 0 5.66 2.05 5.61 6.12l.05-.19c.27-2.58.16-3.56.27-6.44 0 0 4.95 2.3 4.28 6.76l-.08.4c3 .37 5.24 1.89 5.88 6.04h10.06c.67 0 1.2.56 1.15 1.23-.48 6.67-4.95 11.14-13.12 11.14a57.797 57.797 0 0 0-1.54 8.73 21.3 21.3 0 0 0 20.06-21.26 21.279 21.279 0 0 0-26.69-20.62ZM5.367 5.37c.34 0 .66-.07.96-.18 2.42 2.5 4.27 6.76 4.88 8.24.86-.4 1.76-.75 2.68-1.05-1.48-2.95-3.95-6.45-6.16-8.42A2.68 2.68 0 0 0 5.367 0a2.685 2.685 0 0 0 0 5.37Z" class="fill-red"/></svg>
-                   </a>
+                    <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 162 81">
+                            <path
+                                d="M60.347 33.48v1.5c-.08-.28-1.4-1.73-3.75-1.73a6.68 6.68 0 0 0-6.68 6.96c0 4.81 3.59 7.05 6.68 7.05 2.34 0 3.67-1.38 3.75-1.92V47h3.71V33.48h-3.71Zm-3.24 10.48c-1.87 0-3.59-1.28-3.59-3.75a3.47 3.47 0 0 1 3.6-3.66c1.81 0 3.4 1.25 3.4 3.66 0 2.5-1.59 3.75-3.4 3.75h-.01Zm16.12-6.42 3.12-.81a5.05 5.05 0 0 0-5.02-3.48c-2.52 0-4.78 1.48-4.78 3.92 0 1.85 1.22 3.23 3.87 4.19l1.56.54c.8.32 1.12.7 1.12 1.15 0 .67-.73 1.3-1.7 1.3-1.34 0-2.07-.86-2.41-1.77l-2.94.91c.55 2.37 2.89 3.82 5.36 3.82 2.73 0 5.4-1.53 5.4-4.24 0-2.62-1.92-3.35-3.9-4.05l-1.63-.6c-.73-.26-1.1-.62-1.1-1.2 0-.6.63-1.01 1.3-1.01.73 0 1.33.36 1.75 1.33Zm11.42 6.34c-.94 0-1.12-.68-1.12-1.3v-6.03h2.88v-3.07h-2.88v-3.17h-3.72v3.17h-1.9v3.07h1.9v6.06c0 3.82 1.77 4.55 3.87 4.55 1.3 0 2.19-.19 2.76-.45V43.6a4.9 4.9 0 0 1-1.8.29l.01-.01Zm12.41-10.6a4.72 4.72 0 0 0-4.68 3.58v-3.38h-3.71V47h3.71v-5.77a4.73 4.73 0 0 1 5.67-4.32v-3.56c-.34-.08-.65-.08-.99-.08v.01Zm9.28-.03c-3.07 0-7.1 2.31-7.1 7.04s4.03 6.97 7.1 6.97c3.07 0 7.07-2.24 7.07-6.97 0-4.73-4-7.04-7.07-7.04Zm0 3.3c1.67 0 3.49 1.27 3.49 3.74a3.499 3.499 0 0 1-3.49 3.67 3.5 3.5 0 0 1-3.48-3.67c0-2.47 1.8-3.74 3.48-3.74Zm16.12-3.3c-2.34 0-3.67 1.45-3.74 1.74v-1.51h-3.71v18.46h3.72v-6.6c.07.54 1.4 1.92 3.74 1.92 3.1 0 6.68-2.24 6.68-7.05a6.672 6.672 0 0 0-1.855-4.906 6.68 6.68 0 0 0-4.825-2.054h-.01Zm-.52 10.7c-1.82 0-3.4-1.24-3.4-3.74 0-2.41 1.58-3.66 3.4-3.66a3.475 3.475 0 0 1 3.373 2.245c.17.451.244.933.217 1.415 0 2.47-1.72 3.75-3.6 3.75l.01-.01Zm19.32-10.47v1.5c-.08-.28-1.4-1.73-3.75-1.73a6.681 6.681 0 0 0-6.68 6.96c0 4.81 3.59 7.05 6.68 7.05 2.34 0 3.67-1.38 3.75-1.92V47h3.71V33.48h-3.71Zm-3.23 10.48c-1.87 0-3.59-1.28-3.59-3.75a3.46 3.46 0 0 1 .991-2.626 3.47 3.47 0 0 1 2.609-1.034c1.81 0 3.4 1.25 3.4 3.66 0 2.5-1.59 3.75-3.4 3.75h-.01Zm19.63-15.34v6.37c-.08-.29-1.4-1.74-3.75-1.74a6.681 6.681 0 0 0-6.68 6.96c0 4.81 3.59 7.05 6.68 7.05 2.34 0 3.67-1.38 3.75-1.92V47h3.72V28.62h-3.72Zm-3.23 15.34c-1.87 0-3.58-1.28-3.58-3.75a3.46 3.46 0 0 1 3.58-3.66c1.82 0 3.41 1.25 3.41 3.66 0 2.5-1.59 3.75-3.4 3.75h-.01ZM15.837 14.12c-1.1.28-.42.1-2.37.8a21.3 21.3 0 0 0-8.96 32.91c4.73-5.42 4.78-16.76 5.4-25.62 0 0 5.66 2.05 5.61 6.12l.05-.19c.27-2.58.16-3.56.27-6.44 0 0 4.95 2.3 4.28 6.76l-.08.4c3 .37 5.24 1.89 5.88 6.04h10.06c.67 0 1.2.56 1.15 1.23-.48 6.67-4.95 11.14-13.12 11.14a57.797 57.797 0 0 0-1.54 8.73 21.3 21.3 0 0 0 20.06-21.26 21.279 21.279 0 0 0-26.69-20.62ZM5.367 5.37c.34 0 .66-.07.96-.18 2.42 2.5 4.27 6.76 4.88 8.24.86-.4 1.76-.75 2.68-1.05-1.48-2.95-3.95-6.45-6.16-8.42A2.68 2.68 0 0 0 5.367 0a2.685 2.685 0 0 0 0 5.37Z"
+                                class="fill-red" />
+                        </svg>
+                    </a>
                 </div>
                 <div class="menu">
                     <ul>
-                        <a href="">                        <li>STUDIO</li>
+                        <a href="">
+                            <li>STUDIO</li>
                         </a>
-                       <a href=""> <li>LUNA DISPLAY</li></a>
-                        <a href=""><li>DARKBOARD IPAD STAND</li></a>
-                        <a href=""><li>IPAD ACCESSORIES</li></a>
-                        <a href=""><li>SUPPORT</li></a>
+                        <a href="">
+                            <li>LUNA DISPLAY</li>
+                        </a>
+                        <a href="">
+                            <li>DARKBOARD IPAD STAND</li>
+                        </a>
+                        <a href="">
+                            <li>IPAD ACCESSORIES</li>
+                        </a>
+                        <a href="">
+                            <li>SUPPORT</li>
+                        </a>
                     </ul>
                 </div>
             </div>
@@ -35,33 +51,35 @@
             </div>
             <div class="img-button-content">
 
-            
-            <div class="left-text-p-1">
-                <h1>Astropad Studio</h1>
-                <h4>Turn your iPad into a professional drawing tablet.</h4>
-                <div class="button-page-1">
-                    <button>free trial</button>
-                    <p>learn more →</p>
-                </div>
-            </div>
 
-            <div class="right-symbol-box">
-                <div class="magic-gestures">
-                    <img src="https://astropad.com/wp-content/uploads/2023/03/magic-gestures.svg" alt="">
-                    <p>magic gesture</p>
+                <div class="left-text-p-1">
+                    <h1>Astropad Studio</h1>
+                    <h4>Turn your iPad into a professional drawing tablet.</h4>
+                    <div class="button-page-1">
+                        <button>free trial</button>
+                        <p>learn more →</p>
+                    </div>
                 </div>
-                <div class="stroke-lab">
-                    <img src="https://astropad.com/wp-content/uploads/2023/03/stroke-lab.svg" alt="">
-                    <p>strock lab</p>
-                </div>
-                <div class="unli-per-shor">
-                    <img src="https://astropad.com/wp-content/uploads/2023/03/unlimited.svg" alt="">
-                    <p>unlimited per-app <br> shortcuts</p>
-                </div>
-            </div>
 
+                <div class="right-symbol-box">
+                    <div class="magic-gestures">
+                        <img src="https://astropad.com/wp-content/uploads/2023/03/magic-gestures.svg" alt="">
+                        <p>magic gesture</p>
+                    </div>
+                    <div class="stroke-lab">
+                        <img src="https://astropad.com/wp-content/uploads/2023/03/stroke-lab.svg" alt="">
+                        <p>strock lab</p>
+                    </div>
+                    <div class="unli-per-shor">
+                        <img src="https://astropad.com/wp-content/uploads/2023/03/unlimited.svg" alt="">
+                        <p>unlimited per-app <br> shortcuts</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        </div>
+        <!-- page-2 -->
+
         <div class="page-2">
             <p>.</p>
             <div class="box-page-2">
@@ -69,13 +87,13 @@
                     <a href="">
                         <img src="https://astropad.com/wp-content/uploads/2023/03/luna-product.webp" alt="">
                     </a>
-                    
+
                 </div>
                 <div class="content-inside-box">
                     <a href="">
                         <img src="https://astropad.com/wp-content/uploads/2023/03/luna-icon.svg" alt="">
                     </a>
-                   
+
                     <h1>Luna Display</h1>
                     <h3>Turn any iPad or Mac into a wireless <br> second display</h3>
                     <a href="">
@@ -86,11 +104,11 @@
             </div>
             <div class="box-page-2">
                 <div class="img-inside-box">
-                   <a href=""> 
-                    <img src="https://astropad.com/wp-content/uploads/2023/06/darkboard-v2-2048x1365.webp
+                    <a href="">
+                        <img src="https://astropad.com/wp-content/uploads/2023/06/darkboard-v2-2048x1365.webp
                     " alt="">
-                </a>
-            </div>
+                    </a>
+                </div>
                 <div class="content-inside-box">
                     <a href="">
                         <img src="https://astropad.com/wp-content/uploads/2023/03/darkboard-icon.svg" alt="">
@@ -102,9 +120,139 @@
                 </div>
             </div>
         </div>
-        <div class="page-3">
+        <!-- page-3 -->
 
+        <div class="page-3">
+            <div class="title-con-page-3">
+                <img src="https://astropad.com/wp-content/uploads/2023/03/apple-icon-red-1.svg" alt="">
+                <h2>iPad accessories</h2>
+            </div>
+            <div class="content-div-page-3">
+                <a href="">
+                    <div class="content-div-page-3-box">
+                        <div class="img-div-page-3">
+                            <img src="https://astropad.com/wp-content/uploads/2023/03/Compact-Drawing-Easel-1536x1536.webp"
+                                alt="">
+                        </div>
+                        <h2>Compact Drawing Easel for iPad</h2>
+                        <p>$29.99</p>
+                        <span class="arrow">→</span>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="content-div-page-3-box">
+                        <div class="img-div-page-3">
+                            <img src="https://astropad.com/wp-content/uploads/2023/03/Magnetic-Nano-Texture-Screen-Protector.webp"
+                                alt="">
+                        </div>
+                        <h2>Magnetic Nano-Texture Scren <br>
+                            Protector for iPad</h2>
+                        <p>$29.99</p>
+                        <span class="arrow" id="arrow-2">→</span>
+
+                    </div>
+                </a>
+                <a href="">
+                    <div class="content-div-page-3-box">
+                        <div class="img-div-page-3">
+                            <img src="https://astropad.com/wp-content/uploads/2023/03/Astropad-Gift-Card.webp" alt="">
+                        </div>
+                        <h2>Astropad Gift Card</h2>
+                        <span class="arrow" id="arrow-3">→</span>
+
+                    </div>
+                </a>
+            </div>
+            <button class="button-page-3">View Shop</button>
+        </div>
+        <!-- page-4 -->
+
+        <div class="page-4">
+            <div class="footer">
+                <div class="cont-1">
+                    <h2>Products</h2>
+                    <h3>Studio</h3>
+                    <h3>lunadisplay</h3>
+                    <h3>darkboard</h3>
+                    <h3>iPad accessories →</h3>
+                </div>
+                <div class="cont-2">
+                    <h2>learn</h2>
+                    <a href="">
+                        <p>blog</p>
+                    </a><a href="">
+                        <p>technology</p>
+                    </a><a href="">
+                        <p>digital nomads</p>
+                    </a><a href="">
+                        <p>ipad vs wacom</p>
+                    </a><a href="">
+                        <p>darkboard vs sketchboard pro</p>
+                    </a><a href="">
+                        <p>astropad studio vs duet display</p>
+                    </a><a href="">
+                        <p>wacom alternatives</p>
+                    </a><a href="">
+                        <p>digital drawing</p>
+                    </a><a href="">
+                        <p>comic illustration in clip studio paint</p>
+                    </a><a href="">
+                        <p>free brush pack</p>
+                    </a>
+                </div>
+                <div class="cont-3">
+                    <h2>company</h2>
+                    <a href="">
+                        <p>about & jobs</p>
+                    </a><a href="">
+                        <p>astropad for universities</p>
+                    </a><a href="">
+                        <p>student discount</p>
+                    </a><a href="">
+                        <p>enterprise licensing</p>
+                    </a><a href="">
+                        <p>wholesale</p>
+                    </a><a href="">
+                        <p>where to buy</p>
+                    </a><a href="">
+                        <p>gift cards</p>
+                    </a><a href="">
+                        <p>become an affiliate</p>
+                    </a>
+                </div>
+                <div class="cont-4">
+                    <h2>support</h2>
+                    <a href="">
+                        <p>app downloads</p>
+                    </a><a href="">
+                        <p>getting started</p>
+                    </a><a href="">
+                        <p>luna self-help wizard</p>
+                    </a><a href="">
+                        <p>help</p>
+                    </a><a href="">
+                        <p>contact</p>
+                    </a><a href="">
+                        <p>returns</p>
+                    </a><a href="">
+                        <p>shipping</p>
+                    </a><a href="">
+                        <p>privacy policy</p>
+                    </a><a href="">
+                        <p>terms of service</p>
+                    </a>
+                </div>
+                <div class="cont-5">
+                    <svg id="astrodog" viewBox="0 0 207 272" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="icon" fill="#EB0C50" fill-rule="evenodd">
+                          <path d="M26.63 26.004c1.637 0 3.197-.316 4.639-.867 11.72 12.15 20.708 32.77 23.616 39.94a113.627 113.627 0 0 1 13.03-5.096c-7.21-14.272-19.136-31.255-29.85-40.783 1-1.843 1.567-3.953 1.567-6.196C39.632 5.821 33.812 0 26.63 0c-7.18 0-13.002 5.82-13.002 13.002 0 7.181 5.822 13.002 13.002 13.002"></path>
+                          <path d="M77.336 68.43c8.38-2.192 17.146-3.352 26.3-3.352 56.849 0 102.997 46.15 102.997 103.258 0 55.044-43.056 99.905-97.197 102.999 1.932-16.887 4.382-31.325 7.476-42.283 39.576 0 61.232-21.656 63.553-54.013.257-3.224-2.32-5.931-5.542-5.931h-48.73c-3.093-20.11-13.922-27.457-28.488-29.263l.386-1.932c3.223-21.658-20.755-32.743-20.755-32.743-.515 13.921 0 18.692-1.288 31.195l-.258.903c.258-19.724-27.2-29.65-27.2-29.65-2.965 42.928-3.224 97.844-26.169 124.142C8.756 214.227.635 192.184.635 168.206c0-43.572 27.072-80.827 65.229-95.909 9.42-3.367 6.098-2.528 11.472-3.868z"></path>
+                        </g>
+                      </svg>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
